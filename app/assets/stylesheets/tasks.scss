@@ -1,0 +1,83 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  margin: 22px 0 26px 0;
+}
+
+h4 {
+  margin-bottom: 28px;
+}
+
+.container-center {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box-task {
+  width: 250px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  margin: 0 8px 18px 8px;
+  input {
+    margin-right: 4px;
+  }
+  a {
+    color: rgb(50, 50, 50);
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.button {
+  margin-top: 16px;
+  a {
+    color: white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.card-task {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 18px 10px 12px 10px;
+  h1 {
+    margin-top: 0;
+  }
+  input {
+    margin-right: 4px;
+  }
+  p {
+    margin: 10px 0;
+  }
+}
+
+.form-task {
+  width: 500px;
+  margin: 0 auto;
+  input {
+    margin-right: 4px;
+  }
+}
+
+.form-content {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 18px 14px 16px 14px;
+}

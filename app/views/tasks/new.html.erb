@@ -1,0 +1,11 @@
+<div class="form-task">
+  <h1 class="text-center">New task</h1>
+
+  <div class="form-content">
+    <%= render 'form', task: @task %>
+  </div>
+
+  <div class="text-center">
+    <div class="btn btn-dark button"><%= link_to "Back to the tasks list", tasks_path %></div>
+  </div>
+</div>

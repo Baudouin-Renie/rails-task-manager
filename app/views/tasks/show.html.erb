@@ -1,0 +1,18 @@
+<div class="card-task text-center">
+  <h1><%= @task.title %></h1>
+  <h4><%= @task.details %></h4>
+
+  <% if @task.completed == true %>
+    <span><input type="checkbox" checked="checked" onclick="return false;"></span>
+    <span>This task is completed</span>
+  <% else %>
+    <span><input type="checkbox" onclick="return false;"></span>
+    <span>This task is not completed yet</span>
+  <% end %>
+
+  <p><div class="btn btn-primary button"><%= link_to "Edit this task", edit_task_path(@task) %></div></p>
+</div>
+
+<div class="container-center text-center">
+  <div class="btn btn-dark button"><%= link_to "Back to the tasks list", tasks_path %></div>
+</div>
